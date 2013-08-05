@@ -1,0 +1,239 @@
+/* MESSAGES */
+
+	.media {
+		position: relative;
+		padding-right: 30px;
+	}
+
+	.message_controls ul {
+		float: right;
+	}
+
+	.message_archive ul, .message_latest ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.message_controls {
+		width: 60%;
+	}
+	
+	.message_controls li {
+		padding-right: 6px;
+	}
+
+	.message_archive li, .message_latest li {
+		list-style: none;
+		float: left;
+		margin: 2px;
+		line-height: 24px;
+	}
+	
+	.message_audio_player, .audio_player {
+		width: 100%;
+		height: 20px;
+		display: none;
+		float: left;
+		margin: 2px;
+	}
+	
+	.message_archive li, .message_latest li {
+		list-style: none;
+		float: left;
+		margin: 2px;
+		line-height: 24px;
+	}
+
+	.message_archive, message_latest {
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+	
+	.message_archive ul, .message_latest ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.message_archive li, .message_latest li {
+		list-style: none;
+		float: left;
+		margin: 2px;
+		line-height: 24px;
+		font-weight: bold;
+	}
+
+	.message_archive_message {
+		width: 100%;
+		float: left;
+		position: relative;
+		margin-bottom: 2em;
+	}
+	
+	.message_title iframe{
+	
+		Background-color: #fff;
+		float: left;
+		padding: 5px;
+		padding-bottom: 5px;
+		-webkit-box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		margin-top: -30px;
+		margin-left: 3px;
+		margin-bottom: 20px;
+		border-radius: 6px 6px;
+	}
+	
+	.media iframe{
+	
+		Background-color: #fff;
+		float: left;
+		padding: 5px;
+		padding-bottom: 5px;
+		-webkit-box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		margin-top: 30px;
+		margin-left: 3px;
+		margin-bottom: 20px;
+		border-radius: 6px 6px;
+	}
+
+	.message_series_image {
+		
+		Background-color: #fff;
+		
+		float: left;
+		padding: 5px;
+		padding-bottom: 1px;
+		-webkit-box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		box-shadow: rgb(102, 102, 102) 0px 0px 6px;
+		margin-top: 10px;
+		margin-left: 3px;
+		margin-bottom: 20px;
+		border-radius: 6px 6px;
+		
+	}
+	
+	.message_details {
+		padding-top: 30px;
+		padding-right: 30px;
+		/*margin-top: 290px;*/
+	}
+	
+	.message_title {
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+	
+	.message_info {
+		width: 100%;
+		float: left;
+		margin-top: 50px;
+		
+	}
+	
+	.message_description{
+		width: 100%;
+		float: left;
+		Padding-bottom: 10px;
+		/* border-bottom: solid 1px; 
+		border-bottom: solid 1px;
+		border-bottom-color: #ccc;*/
+	}
+	
+	.series_description{
+		width: 100%;
+		float: left;
+		Padding-bottom: 20px;
+		border-bottom: 2px solid gray;
+	}
+	
+	.message_buttons {
+		padding-top: 5px;
+		padding-left: 5px;
+		border: solid 1px;
+		border-color: #ccc;
+		width: 99%;
+		float: left;
+		background-color: #eee;
+		border-radius: 6px 6px;
+		border-top-left-radius: 6px 6px;
+		border-top-right-radius: 6px 6px;
+		border-bottom-right-radius: 6px 6px;
+		border-bottom-left-radius: 6px 6px;
+	}
+	
+	.message_sharing {
+		width: 25%;
+		float: right;
+	}
+	
+	.message_sharing_share {
+		padding: 0 6px;
+	}
+	
+	.message_sharing li a {
+		display: block;
+		width: 24px;
+		height: 24px;
+		text-indent: -3000em;
+		background: url(media/media_slice.png) top left no-repeat;
+	}
+	
+	.message_sharing li.message_sharing_facebook a {
+		background: url(media/media_slice.png) -48px top no-repeat;
+	}
+	
+	.message_sharing li.message_sharing_twitter a {
+		background: url(media/media_slice.png) -24px top no-repeat;
+	}
+	
+	.message_controls {
+		width: 75%;
+		float: left;
+	}
+	
+	.message_latest .message_controls {
+		width: 100%;
+	}
+	
+	.message_controls ul {
+		float: left;
+	}
+	
+	.message_controls li {
+		padding-right: 6px;
+	}
+	
+	.message_controls span {
+		display: block;
+		float: left;
+		width: 24px;
+		height: 24px;
+		background: url(media/media_slice.png) top left no-repeat;
+	}
+	
+	.message_controls li.message_control_download span,
+	.message_controls li.message_latest_control_download span {
+		background: url(media/media_slice.png) -72px top no-repeat;
+	}
+	
+	.message_controls li.message_control_notes span,
+	.message_controls li.message_latest_control_notes span {
+		background: url(media/media_slice.png) -168px top no-repeat;
+	}
+	
+	.message_controls li.message_control_listen span,
+	.message_controls li.message_latest_control_listen span {
+		background: url(media/media_slice.png) -96px top no-repeat;
+	}
+	
+	.message_controls li.message_control_watch span,
+	.message_controls li.message_latest_control_watch span {
+		background: url(media/media_slice.png) -120px top no-repeat;
+	}
+	
+	.message_controls a {
+		color: #333;
+	}
+	

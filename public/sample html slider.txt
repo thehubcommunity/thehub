@@ -1,0 +1,85 @@
+  
+<div class="container">
+	<div id="content-slider">
+    	<div id="slider">
+        	<div id="mask">
+            <ul>
+           	<li id="first" class="firstanimation">
+            <a href="/connect/small-groups">
+            <img src="images/girls.jpg" alt="Connect!" />
+            </a>
+            <div class="tooltip">
+            <h1>Connect!</h1>
+            </div>
+            </li>
+
+            <li id="second" class="secondanimation">
+            <a href="/activities/sunday-school">
+            <img src="images/kids.jpg" alt="Kids" />
+            </a>
+            <div class="tooltip">
+            <h1>Kids</h1>
+            </div>
+            </li>
+            
+            <li id="third" class="thirdanimation">
+            <a href="/connect/hiking">
+            <img src="images/hiking.jpg" alt="Hiking" />
+            </a>
+            <div class="tooltip">
+            <h1>Hiking</h1>
+            </div>
+            </li>
+                        
+            <li id="fourth" class="fourthanimation">
+            <a href="/activities/youth-group">
+            <img src="images/youth.jpg" alt="Youth Group" />
+            </a>
+            <div class="tooltip">
+            <h1>Youth Group</h1>
+            </div>
+            </li>
+                        
+            <li id="fifth" class="fifthanimation">
+            <a href="/worship">
+            <img src="images/worship.jpg" alt="Worship" />
+            </a>
+            <div class="tooltip">
+            <h1>Worship</h1>
+            </div>
+            </li>
+            </ul>
+            </div>
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+</div>
+
+
+                
+                <div class="c-12">
+
+              
+                <ul class="portfolio-menu">
+                
+                  <li class="c-3 four-column" id="slide1">
+<a id="image1" class="cms-editable" href="/activities"> <img id="e9c8e1" class="cms-editable" src=".jpg" height="95" width="220" /></a> 
+</li>
+<li class="c-3" id="slide2">
+<a id="image2" class="cms-editable" href="/calendar"> <img id="e9c8e2" class="cms-editable" src=".jpg" height="95" width="220" /></a> 
+</li>
+<li class="c-3" id="slide3">
+<a id="image3" class="cms-editable" href="/connect"> <img id="e9c8e3" class="cms-editable" src=".jpg" height="95" width="220" /></a> 
+</li>
+<li class="c-3" id="slide4">
+<a id="image4" class="cms-editable" href="worship"> <img id="e9c8e4" class="cms-editable" src=".jpg" height="95" width="220" /></a> 
+</li>
+                    
+                    
+                    </ul>
+</div>
+                   
+      
+            
+              
+        

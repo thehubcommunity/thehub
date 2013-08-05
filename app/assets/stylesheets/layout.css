@@ -1,0 +1,180 @@
+#body_content_title {
+  display: none;
+}
+#body_content_left h2 {
+  display: none;
+}
+#body_content_left h1 {
+  	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	font-size:20px;
+	text-align:left;
+}
+#body h2 {
+	position:relative;
+	left:-95px;
+}
+
+#body_content_right {
+	position: absolute;
+	top:10px;
+	left:780px;
+	border-left: 2px solid gray;
+	padding: 10px;
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+    text-align:left;
+    height:600px;
+	width: 150px;
+	float:right;
+	
+}
+
+#paypal {
+	margin-left: 100px;
+}
+
+
+#body_content_left img.image-align-left{
+
+	   padding:10px;
+	   margin-right:20px;
+	   border:1px solid black;
+	   background-color:#fff;
+	    background: none repeat scroll 0 0 #FFFFFF;
+	    border: 0 solid #999999;
+	    border-radius: 5px 5px 5px 5px;
+	    box-shadow: 0 0 5px #333;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    overflow: hidden;
+
+}
+
+#header-pos {
+  position:relative;
+ /* border-bottom: 15px solid orange #9CC757;*/
+  text-align: center;
+  height:140px;
+ /* background-color: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#555));
+  background: -moz-linear-gradient(top,  #999, #555);*/
+  margin-left:auto;
+  margin-right:auto;  
+  color: #FFF;
+  font-weight: bold;
+  
+  padding: 8px 40px;
+ #logo {
+    margin: 0;
+    font-size: 24px;
+	margin-left: 2%;
+	margin-top:0px;
+  }
+}
+
+#header_slim-pos {
+  position:relative;
+ /* border-bottom: 15px solid orange #9CC757;*/
+  text-align: center;
+  height:180px;
+ /* background-color: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#555));
+  background: -moz-linear-gradient(top,  #999, #555);*/
+  margin-left:auto;
+  margin-right:auto;  
+  color: #FFF;
+  font-weight: bold;
+  padding: 8px 40px;
+ #logo {
+    margin: 0;
+    font-size: 24px;
+	margin-left: 2%;
+	margin-top:0px;
+  }
+}
+
+#logo-pos {
+	text-align: center;
+	position:relative;
+	left:-15px;
+	top:-5px;
+	display:block;
+	margin-right:auto;
+}
+
+
+
+
+#page {
+	height:120%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+
+}
+
+#gallery {
+	left:600px;
+	margin-top:-100px;
+	float:right;
+	margin-right:1em;
+	
+}
+
+
+#banner {
+  background-color: #852A2C;
+ /* background: url(bg.png);*/
+  padding: 20px 100px;
+  font-weight: normal;
+  font-style: italic;
+  color: #FFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(gray));
+  background: -moz-linear-gradient(top,  white, gray);
+  -moz-box-shadow: 0 2px 8px 2px #000;
+  -webkit-box-shadow: 0 2px 6px 2px #000;
+  margin-bottom: 30px;
+  p {
+    margin: 0;
+    padding-top: 32px;
+    font-size: 34px;
+    &.font-size-small {
+      padding-top: 10px;
+      font-size: 20px;
+      color: #EAA29F;
+    }
+  }
+}
+
+#body_content {
+	position: relative;
+	
+	#body {
+	text-align: left;
+	display:block;
+	}
+	.image-align-left {
+		margin-right: 40px;
+		}
+
+
+ section #body {
+	position: relative;
+	bottom: 0;
+    float:left;
+    right: 100px;
+    width: 250px;
+    p {
+      color: #777;
+      font-size: 14px;
+    }
+}
+
+
+}
+
+
+
+

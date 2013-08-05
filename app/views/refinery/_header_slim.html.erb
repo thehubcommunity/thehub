@@ -1,0 +1,30 @@
+<div id='header_slim-pos'>
+
+	<h1 id='logo-pos'> 
+		<a href="/"><img src="/images/hub-logo.png" alt="Hub Logo"/> </a>
+  		<%#= link_to Refinery::Core.site_name, refinery.root_path %>
+	</h1>
+
+
+	<h3 class="header-title cms-editable" id="">
+		<span style="vertical-align: 15px;">SUNDAYS AT 9:30AM &nbsp;| &nbsp;<strong><a href="/map">MAP</a>&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><strong>
+			<a href="https://www.facebook.com/pages/The-Hub-Community/165442440143498"><img title="The Hub Facebook" src="/images/social/facebook.png" alt="The Hub Facebook" width="38" height="38" /></a></strong>&nbsp; 
+			<a href="http://www.twitter.com/aarondpeterson"><img title="The Hub Twitter" src="/images/social/twitter.png" alt="The Hub Twitter" width="38" height="38" /></a> &nbsp;
+			<a href="http://www.youtube.com/TheHubCommunity"><img title="The Hub YouTube" src="/images/social/youtube.png" alt="The Hub YouTube" width="38" height="38" /></a>&nbsp; 
+			<a href="http://www.instagram.com/TheHubCommunity"><img title="The Hub Instagram" src="/images/social/instagram.png" alt="The Hub Instagram" width="38" height="38" /></a>&nbsp;				  
+			<a href="mailto:aaron@thehubcommunity.com"><img title="The Hub e-mail" src="/images/social/email.png" alt="The Hub e-mail" width="38" height="38" /></a>
+	</h3>
+
+	<div id="main-menu">	
+		 <span>
+<div class="cms-navigation" id="main-navigation">  
+
+    <%= render(:partial => "/refinery/menu", :locals => {
+                 :dom_id => 'menu',
+                 :css => 'menu'
+               }) %>
+
+</div>
+	</span>
+</div>
+</div>

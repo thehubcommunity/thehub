@@ -1,0 +1,128 @@
+#body_content_left {
+  width: 78%;
+}
+#body_content_right {
+  width: 17%;
+}
+.blog_post {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#body_content_right h2 {
+  margin-left:-20px;
+  font-size: 20px;
+  padding:15px;
+}
+#body_content_right ul {
+  padding-top: 0px;
+}
+#body_content_right ul li {
+    list-style: square;
+    padding-left: 0px;
+    margin-left: 15px;
+    background: none;
+    min-height: 100% !important;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
+}
+.blog_comment_message {
+	margin: 0px;
+	min-height: 60px;
+	margin-bottom: 15px;
+	background: #F7FCF9;
+	padding: 15px;
+	-webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.filed_in {
+  display: none;
+}
+
+.comment_icon {
+  vertical-align: middle;
+}
+
+.avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.blog_comment_message p {
+  margin-top: 0px;
+}
+
+
+.blog_comment_message p:last-child {
+  margin-bottom: 0px;
+}
+
+.blog_comment_author {
+  color: #A5A5A5;
+}
+.new_comment div {
+	padding:15px;
+	font: 20px 'Yanone Kaffeesatz',sans-serif;
+    list-style-position: outside;
+    list-style-type: none;
+	
+}
+.new_comment div input{
+	margin-left:22px;
+	color: red;
+	
+}
+
+.details {
+	position: relative;
+	left: 155px;
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	color:orange;
+	font-size:16px;
+	text-align:left;
+	white-space:nowrap;
+}
+.details-unique {
+	position: relative;
+	left:2px;
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	color:orange;
+	font-size:14px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+.blog_post {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 2px solid gray;
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	font-size:18px;
+	text-align:left;
+}
+
+
+
+#show_blog_post {
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	margin-bottom: 50px;
+}
+#comments {
+	font-family: 'Yanone Kaffeesatz';
+	font-style: normal;
+	padding:0px;
+	
+}
+.blog_comment_message {
+	padding:50px;
+
+	clear:left;
+	border-bottom: 1px dotted gray;
+}
+
+
